@@ -127,13 +127,35 @@ body {
   gap: 56px;
 }
 
-.header__nav a {
+.header__nav button {
   font-weight: 500;
   line-height: 130%;
+  transition: color .3s ease, font-weight .3s ease;
+}
+
+.header__btn-mobile {
+  padding: 10px 45px;
+  display: none;
+}
+
+.burger-menu {
+  display: none;
+}
+
+.burger-menu img {
+  width: 30px;
 }
 
 .header__btn {
   padding: 17px 47.5px;
+}
+
+.menu-close-btn {
+  display: none;
+}
+
+.menu-close-btn img {
+  width: 18px;
 }
 
 /*introduction*/
@@ -145,7 +167,7 @@ body {
 }
 
 .introduction__content {
-  gap: 13px;
+  /* gap: 13px; */
   justify-content: space-between;
 }
 
@@ -219,7 +241,7 @@ body {
 .introduction__content-img {
   position: relative;
   z-index: 1;
-  height: 640px;
+  height: 40em;
 }
 
 .introduction__content-img::before {
@@ -233,10 +255,10 @@ body {
   background: url(../img/heartbox.png) no-repeat center;
 }
 
-.main-img {
+/* .main-img {
   max-width: 118%;
   margin-top: -7px;
-}
+} */
 
 .introduction__img-info {
   max-width: 620px;
@@ -295,9 +317,9 @@ body {
 }
 
 .calories {
-  position: absolute;
+  /* position: absolute;
   margin-top: -17.5px;
-  right: -39px;
+  right: -39px; */
   background-color: rgba(255, 255, 255, 0.9);
   border-radius: 28px;
   padding: 16px 21px 24px 24px;
