@@ -7,6 +7,27 @@
         margin-left: 0;
     }
 }
+@media (max-width: 1160px) {
+    .benefits__cards {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+    }
+    .benefits__cards-item {
+        text-align: center;
+    }
+    .benefits__cards-item-img {
+        margin: 0 auto;
+    }
+}
+@media (max-width: 1096px) {
+    .benefits__text {
+        align-self: unset;
+    }
+    .about-us {
+        padding: 100px 15px 100px 15px;
+    }
+}
 @media (max-width: 1080px) {
     .introduction__img-info {
         flex-wrap: wrap;
@@ -33,6 +54,16 @@
     }
     .introduction__content-img {
         margin-bottom: 120px;
+    }
+    .benefits__heading {
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .benefits__title {
+        width: 100%;
+    }
+    .benefits__text {
+        max-width: 100%;
     }
 }
 @media (max-width: 850px) {
@@ -83,6 +114,9 @@
     .burger-menu {
         display: block;
     }
+    .benefits {
+        padding-top: 0;
+    }
 }
 @media (max-width: 460px) {
     .introduction {
@@ -106,9 +140,31 @@
     .introduction__content-img {
         margin-bottom: 30px;
     }
+    .benefits {
+        padding: 0 0 100px 0;
+    }
+    .benefits__heading {
+        margin-bottom: 30px;
+    }
+    .benefits__title {
+        font-size: 36px;
+    }
+    .benefits__text {
+        font-size: 16px;
+    }
+    .benefits__cards-item h4 {
+        font-size: 20px;
+        margin-top: 40px;
+    }
+    .benefits__cards-item p {
+        font-size: 14px;
+    }
 }
 @media (max-width: 350px) {
     .introduction__content-img {
         max-height: 34em;
+    }
+    .benefits__title {
+        font-size: 25px;
     }
 }

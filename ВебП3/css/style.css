@@ -375,12 +375,11 @@ body {
 }
 
 .benefits__cards {
-	gap: 40px;
+	justify-content: space-between;
 }
 
 .benefits__cards-item {
-  width: 370px;
-  height: 469px;
+  max-width: 370px;
 	padding: 30px;
   border: 1px solid rgb(255, 240, 218);
 	border-radius: 50px;
