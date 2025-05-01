@@ -27,6 +27,9 @@
     .about-us {
         padding: 100px 15px 100px 15px;
     }
+    .discounts {
+        padding: 100px 0;
+    }
 }
 @media (max-width: 1080px) {
     .introduction__img-info {
@@ -70,10 +73,25 @@
     .introduction__title {
         font-size: 54px;
     }
+    .discounts__cards {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .footer__content {
+        grid-template-columns: 40% 25%;
+        grid-row-gap: 70px;
+        justify-content: space-around;
+    }
+    .footer__contacts {
+        gap: 20px;
+    }
 }
 @media (max-width: 750px) {
     .header__nav ul {
         gap: 25px;
+    }
+    .subscribe__heading-title {
+        font-size: 32px;
     }
 }
 @media (max-width: 625px) {
@@ -117,6 +135,9 @@
     .benefits {
         padding-top: 0;
     }
+    .input-email {
+        width: 270px;
+    }
 }
 @media (max-width: 460px) {
     .introduction {
@@ -159,6 +180,42 @@
     .benefits__cards-item p {
         font-size: 14px;
     }
+    .discounts__heading-top {
+        font-size: 16px;
+    }
+    .discounts__heading-title {
+        font-size: 36px;
+    }
+    .input-email {
+        height: 60px;
+    }
+    .input-btn {
+        padding: 12px 15px;
+    }
+    .footer__content {
+        grid-template-columns: 60%;
+        text-align: center;
+        gap: 50px;
+    }
+    .footer__contacts {
+        gap: 30px;
+    }
+    .footer__contacts-text {
+        text-align: left;
+    }
+    .footer__socials-icons {
+        justify-content: center;
+    }
+}
+@media (max-width: 420px) {
+    .input-email {
+        width: 150px;
+        font-size: 13px;
+        padding: 10px;
+    }
+    .input-btn {
+        font-size: 14px;
+    }
 }
 @media (max-width: 350px) {
     .introduction__content-img {
@@ -166,5 +223,20 @@
     }
     .benefits__title {
         font-size: 25px;
+    }
+    .discounts__heading-title {
+        font-size: 25px;
+    }
+    .discounts__item-img {
+        height: 375px;
+    }
+    .discounts__item-text h5 {
+        font-size: 20px;
+    }
+    .price {
+        font-size: 30px;
+    }
+    .subscribe__email-field {
+        margin-top: 40px;
     }
 }
