@@ -18,9 +18,13 @@ h1, h2, h3, h4, h5, h6, p {
   line-height: inherit;
 }
 
-a {
+a, a:visited, a:hover {
   color: inherit;
   text-decoration: none;
+}
+
+a:focus, a:active {
+  outline: none;
 }
 
 img, svg{
@@ -105,6 +109,16 @@ body {
   font-weight: 600;
 }
 
+.btn:hover {
+  background: #FFF0DC;
+  color: #FB9333;
+}
+
+.btn:active {
+  background-color: #ffd8a1;
+}
+
+
 
 /*header*/
 
@@ -125,6 +139,21 @@ body {
 
 .header__nav ul {
   gap: 56px;
+}
+
+.header__nav a {
+  font-weight: 500;
+  line-height: 130%;
+  transition: color .3s ease, font-weight .3s ease;
+}
+
+.header__nav a:hover {
+  color: #FB9300;
+  font-weight: 700;
+}
+
+.header__nav a:active {
+  color: #DE6D04;
 }
 
 .header__nav button {
@@ -383,7 +412,12 @@ body {
 	padding: 30px;
   border: 1px solid rgb(255, 240, 218);
 	border-radius: 50px;
+  transition: box-shadow .3s ease;
 }
+
+.benefits__cards-item:hover {
+  box-shadow: 0px 50px 80px -30px rgba(151, 109, 0, 0.2);
+}  
 
 .benefits__cards-item-img {
 	position: relative;
@@ -413,15 +447,38 @@ body {
 
 .benefits__cards-item a {
 	display: inline-block;
-	padding: 10px;
+	padding: 10px 24px;
 	margin-top: 24px;
 	border-radius: 100px;
+  transition: color .3s ease, background .3s ease;
+}
+
+.benefits__cards-item:hover a {
+  background: #FB9333;
+  color: #fff;
+}
+
+.benefits__cards-item a:active {
+  background-color: #ffd8a1;
 }
 
 .benefits__cards-item a svg {
 	margin-top: 4px;
 	margin-left: 9px;
 }
+
+.benefits__cards-item a svg path {
+  transition: stroke .3s ease;
+}
+
+.benefits__cards-item:hover a svg path {
+  stroke: #fff;
+}
+
+.benefits__cards-item a:hover svg path {
+  stroke: #FB9333;
+}
+
 
 /*about-us*/
 

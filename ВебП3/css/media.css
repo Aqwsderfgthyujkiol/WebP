@@ -73,6 +73,22 @@
     .introduction__title {
         font-size: 54px;
     }
+    .about-us {
+        padding: 100px;
+    }
+    .about-us__content {
+        grid-template-columns: none;
+        align-items: none;
+        gap: 50px;
+    }
+    .about-us__content-text {
+        text-align: center;
+        max-width: none;
+        grid-column: 1/span 5;
+    }
+    .pagination {
+        justify-content: center;
+    }
     .discounts__cards {
         flex-wrap: wrap;
         justify-content: center;
@@ -84,6 +100,10 @@
     }
     .footer__contacts {
         gap: 20px;
+    }
+    .testimonials__cards {
+        grid-row-start: 2;
+        grid-row-end: 4;
     }
 }
 @media (max-width: 750px) {
