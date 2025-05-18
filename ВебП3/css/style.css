@@ -458,6 +458,11 @@ body {
   color: #fff;
 }
 
+.benefits__cards-item a:hover {
+  background: #FFF0DC;
+  color: #FB9333;
+}
+
 .benefits__cards-item a:active {
   background-color: #ffd8a1;
 }
@@ -496,6 +501,7 @@ body {
   grid-template-rows: max-content;
   grid-template-columns: 38.5% 23% 23% 23%;
   align-items: center;
+  gap: 30px;
 }
 
 .about-us__content-text {
@@ -529,7 +535,6 @@ body {
 .slider-btn {
 	width: 56px;
 	height: 56px;
-	background-color: #FFD7A0;
 	border-radius: 10px;
 }
 
@@ -755,6 +760,18 @@ body {
   gap: 31px;
 }
 
+.footer__nav a {
+  transition: color .3s ease, font-weight .3s ease;
+}
+
+.footer__nav a:hover {
+  color: #FB9300;
+}
+
+.footer__nav a:active {
+  color: #DE6D04;
+}
+
 .footer__contacts {
   display: grid;
 }
@@ -771,6 +788,18 @@ body {
   line-height: 150%;
 }
 
+.footer__contacts-text a {
+  transition: color .3s ease, font-weight .3s ease;
+}
+
+.footer__contacts-text a:hover {
+  color: #FB9300;
+}
+
+.footer__contacts-text a:active {
+  color: #DE6D04;
+}
+
 .footer__contacts-text img {
   object-fit: contain;
   align-self: start;
@@ -781,7 +810,7 @@ body {
   gap: 32px;
 }
 
-.footer__socials-items a {
+.footer__socials-icons a {
   object-fit: contain;
   align-self: start;
 }

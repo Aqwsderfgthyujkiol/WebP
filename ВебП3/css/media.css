@@ -70,6 +70,11 @@
     }
 }
 @media (max-width: 850px) {
+
+    .introduction__content-img::before {
+        right: 0;
+    }
+
     .introduction__title {
         font-size: 54px;
     }
@@ -78,13 +83,12 @@
     }
     .about-us__content {
         grid-template-columns: none;
-        align-items: none;
-        gap: 50px;
     }
     .about-us__content-text {
-        text-align: center;
         max-width: none;
-        grid-column: 1/span 5;
+        min-height: 500px;
+        grid-column: 1/span 3;
+        text-align: center;
     }
     .pagination {
         justify-content: center;
@@ -109,6 +113,13 @@
 @media (max-width: 750px) {
     .header__nav ul {
         gap: 25px;
+    }
+   
+    .about-us__content {
+        grid-template-columns: 30% 30% 30%;
+    }
+    .about-us__content-text {
+        min-height: 550px;
     }
     .subscribe__heading-title {
         font-size: 32px;
@@ -155,6 +166,19 @@
     .benefits {
         padding-top: 0;
     }
+    .about-us__content {
+        grid-template-columns: 40% 40% 40%;
+        gap: 10px;
+    }
+    .about-us__content-text {
+        min-height: 610px;
+    }
+    .item-name {
+        font-size: 14px;
+    }
+    .item-text {
+        font-size: 12px;
+    }
     .input-email {
         width: 270px;
     }
@@ -200,6 +224,36 @@
     .benefits__cards-item p {
         font-size: 14px;
     }
+    .about-us {
+        padding: 50px;
+    }
+    .about-us__title {
+        font-size: 36px;
+    }
+    .about-us__content {
+        grid-template-rows: auto auto auto auto;
+        grid-template-columns: auto auto auto;
+        row-gap: 40px;
+    }
+    .about-us__content-text {
+        min-height: 467px;
+    }
+    .testimonials__cards {
+        max-width: 318px;
+        grid-column: 1/4;
+    }
+    .item-img {
+        top: -40px;
+    }
+    .testimonials__cards-1 {
+        grid-row: 2/3;
+    }
+    .testimonials__cards-2 {
+        grid-row: 3/4;
+    }
+    .testimonials__cards-3 {
+        grid-row: 4/5;
+    }
     .discounts__heading-top {
         font-size: 16px;
     }
@@ -228,6 +282,15 @@
     }
 }
 @media (max-width: 420px) {
+    .introduction__stats {
+        gap: 25px;
+    }
+    .stat__number {
+        font-size: 20px;
+    }
+    .stat__category {
+        font-size: 14px;
+    }
     .input-email {
         width: 150px;
         font-size: 13px;
