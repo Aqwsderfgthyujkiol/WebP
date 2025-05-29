@@ -1,0 +1,325 @@
+@media (max-width: 1350px) {
+    .container {
+        max-width: 1200px;
+        padding: 0 15px;
+    }
+    .introduction__content-text {
+        margin-left: 0;
+    }
+}
+@media (max-width: 1160px) {
+    .benefits__cards {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+    }
+    .benefits__cards-item {
+        text-align: center;
+    }
+    .benefits__cards-item-img {
+        margin: 0 auto;
+    }
+}
+@media (max-width: 1096px) {
+    .benefits__text {
+        align-self: unset;
+    }
+    .about-us {
+        padding: 100px 15px 100px 15px;
+    }
+    .discounts {
+        padding: 100px 0;
+    }
+}
+@media (max-width: 1080px) {
+    .introduction__img-info {
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+    }
+}
+@media (max-width: 980px) {
+    .introduction__content {
+        flex-wrap: wrap;
+        gap: 50px;
+        justify-content: center;
+    }
+    .introduction__content-text {
+        max-width: 100%;
+        text-align: center;
+    }
+    .introduction__title-upper {
+        margin-top: 30px;
+    }
+    .introduction__stats {
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .introduction__content-img {
+        margin-bottom: 120px;
+    }
+    .benefits__heading {
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .benefits__title {
+        width: 100%;
+    }
+    .benefits__text {
+        max-width: 100%;
+    }
+}
+@media (max-width: 850px) {
+
+    .introduction__content-img::before {
+        right: 0;
+    }
+
+    .introduction__title {
+        font-size: 54px;
+    }
+    .about-us {
+        padding: 100px;
+    }
+    .about-us__content {
+        grid-template-columns: none;
+    }
+    .about-us__content-text {
+        max-width: none;
+        min-height: 500px;
+        grid-column: 1/span 3;
+        text-align: center;
+    }
+    .pagination {
+        justify-content: center;
+    }
+    .discounts__cards {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .footer__content {
+        grid-template-columns: 40% 25%;
+        grid-row-gap: 70px;
+        justify-content: space-around;
+    }
+    .footer__contacts {
+        gap: 20px;
+    }
+    .testimonials__cards {
+        grid-row-start: 2;
+        grid-row-end: 4;
+    }
+}
+@media (max-width: 750px) {
+    .header__nav ul {
+        gap: 25px;
+    }
+   
+    .about-us__content {
+        grid-template-columns: 30% 30% 30%;
+    }
+    .about-us__content-text {
+        min-height: 550px;
+    }
+    .subscribe__heading-title {
+        font-size: 32px;
+    }
+}
+@media (max-width: 625px) {
+    .header__nav {
+        position: fixed;
+        top: 0;
+        right: -100%;
+        display: block;
+        max-width: 270px;
+        width: 100%;
+        height: 100%;
+        background: #fff;
+        line-height: 40px;
+        padding: 20px;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+        /* transition: right 0.5s ease; */
+    }
+    .menu-close-btn {
+        display: block;
+        position: absolute;
+        right: 20px;
+    }
+    .header__nav ul {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+        margin-top: 15vh;
+    }
+    .header__btn {
+        display: none;
+    }
+    .header__btn-mobile {
+        display: block;
+        text-align: center;
+        margin-top: 30px;
+    }
+    .burger-menu {
+        display: block;
+    }
+    .benefits {
+        padding-top: 0;
+    }
+    .about-us__content {
+        grid-template-columns: 40% 40% 40%;
+        gap: 10px;
+    }
+    .about-us__content-text {
+        min-height: 610px;
+    }
+    .item-name {
+        font-size: 14px;
+    }
+    .item-text {
+        font-size: 12px;
+    }
+    .input-email {
+        width: 270px;
+    }
+}
+@media (max-width: 460px) {
+    .introduction {
+        padding: 100px 0 0 0;
+    }
+    .introduction__title {
+        font-size: 36px;
+        margin-top: 20px;
+    }
+    .introduction__subtitle {
+        font-size: 16px;
+        margin-top: 20px;
+    }
+    .introduction__order-btn {
+        padding: 15px;
+        width: 100%;
+    }
+    .introduction__stats {
+        margin-top: 50px;
+    }
+    .introduction__content-img {
+        margin-bottom: 30px;
+    }
+    .benefits {
+        padding: 0 0 100px 0;
+    }
+    .benefits__heading {
+        margin-bottom: 30px;
+    }
+    .benefits__title {
+        font-size: 36px;
+    }
+    .benefits__text {
+        font-size: 16px;
+    }
+    .benefits__cards-item h4 {
+        font-size: 20px;
+        margin-top: 40px;
+    }
+    .benefits__cards-item p {
+        font-size: 14px;
+    }
+    .about-us {
+        padding: 50px;
+    }
+    .about-us__title {
+        font-size: 36px;
+    }
+    .about-us__content {
+        grid-template-rows: auto auto auto auto;
+        grid-template-columns: auto auto auto;
+        row-gap: 40px;
+    }
+    .about-us__content-text {
+        min-height: 467px;
+    }
+    .testimonials__cards {
+        max-width: 318px;
+        grid-column: 1/4;
+    }
+    .item-img {
+        top: -40px;
+    }
+    .testimonials__cards-1 {
+        grid-row: 2/3;
+    }
+    .testimonials__cards-2 {
+        grid-row: 3/4;
+    }
+    .testimonials__cards-3 {
+        grid-row: 4/5;
+    }
+    .discounts__heading-top {
+        font-size: 16px;
+    }
+    .discounts__heading-title {
+        font-size: 36px;
+    }
+    .input-email {
+        height: 60px;
+    }
+    .input-btn {
+        padding: 12px 15px;
+    }
+    .footer__content {
+        grid-template-columns: 60%;
+        text-align: center;
+        gap: 50px;
+    }
+    .footer__contacts {
+        gap: 30px;
+    }
+    .footer__contacts-text {
+        text-align: left;
+    }
+    .footer__socials-icons {
+        justify-content: center;
+    }
+}
+@media (max-width: 420px) {
+    .introduction__stats {
+        gap: 25px;
+    }
+    .stat__number {
+        font-size: 20px;
+    }
+    .stat__category {
+        font-size: 14px;
+    }
+    .input-email {
+        width: 150px;
+        font-size: 13px;
+        padding: 10px;
+    }
+    .input-btn {
+        font-size: 14px;
+    }
+}
+@media (max-width: 350px) {
+    .introduction__content-img {
+        max-height: 34em;
+    }
+    .benefits__title {
+        font-size: 25px;
+    }
+    .discounts__heading-title {
+        font-size: 25px;
+    }
+    .discounts__item-img {
+        height: 375px;
+    }
+    .discounts__item-text h5 {
+        font-size: 20px;
+    }
+    .price {
+        font-size: 30px;
+    }
+    .subscribe__email-field {
+        margin-top: 40px;
+    }
+}
